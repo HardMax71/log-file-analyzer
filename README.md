@@ -1,9 +1,9 @@
-<div style="text-align:center;">
-  # Log File Analyzer
+<div align="center">
+<img src="https://raw.githubusercontent.com/HardMax71/log-file-analyzer/main/images/icon.png" alt="Logo" width="100" height="100">
 
-  ![Log File Analyzer Icon](images/icon.png)
+# Log File Analyzer
 
-  A powerful Shiny application designed to parse, visualize, and analyze log files. It provides an intuitive interface for data exploration and visualization, making it easier to gain insights from complex log data.
+A powerful Shiny application designed to parse, visualize, and analyze log files. It provides an intuitive interface for data exploration and visualization, making it easier to gain insights from complex log data.
 </div>
 
 ## Features
@@ -16,11 +16,19 @@
 
 ## Screenshots
 
-<div style="text-align:center;">
-  | Main Interface | Plot Example | Filter Options |
-  |:--------------:|:------------:|:--------------:|
-  | ![Main Interface](screenshots/main_interface.png) | ![Plot Example](screenshots/plot_example.png) | ![Filter Options](screenshots/filter_options.png) |
+<div align="center">
+  <table>
+    <tr>
+      <th>Main Interface</th>
+      <th>Plot Example</th>
+    </tr>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/HardMax71/log-file-analyzer/main/images/main_interface.png" alt="Main Interface" width="100%" style="display:block; margin:auto;"></td>
+      <td><img src="https://raw.githubusercontent.com/HardMax71/log-file-analyzer/main/images/plot_example.png" alt="Plot Example" width="100%" style="display:block; margin:auto;"></td>
+    </tr>
+  </table>
 </div>
+
 
 
 ## Installation
