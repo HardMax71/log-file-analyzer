@@ -42,7 +42,7 @@ git clone https://github.com/HardMax71/log-file-analyzer.git
 2.  Install the required R packages:
 
 ``` r
-install.packages(c("shiny", "ggplot2", "dplyr", "lubridate", "shinydashboard", "shinyjs", "bslib", "plotly", "shinyWidgets"))
+install.packages(c("shiny", "ggplot2", "dplyr", "lubridate", "shinydashboard", "shinyjs", "bslib", "plotly", "shinyWidgets", "readr"))
 ```
 
 3.  Navigate to project directory:

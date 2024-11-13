@@ -1,0 +1,12 @@
+name: log-file-analyzer
+title: log-file-analyzer
+username: fcwhpn-max0azatian
+account: fcwhpn-max0azatian
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13320087
+bundleId: 9353993
+url: https://fcwhpn-max0azatian.shinyapps.io/log-file-analyzer/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

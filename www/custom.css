@@ -1,0 +1,135 @@
+/* www/custom.css */
+.content-wrapper {
+  background-color: #f4f6f9;
+}
+
+.box {
+  box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+  border-radius: 0.25rem;
+}
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 1.25rem;
+  position: relative;
+}
+
+.box-title {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.nav-tabs-custom {
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border-radius: 3px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0,0,0,.075);
+}
+
+/* Custom styling for log levels */
+.log-level-ERROR {
+  background-color: #dc3545!important;
+  color: white;
+}
+
+.log-level-WARNING {
+  background-color: #ffc107!important;
+}
+
+.log-level-INFO {
+  background-color: #17a2b8!important;
+  color: white;
+}
+
+.log-level-DEBUG {
+  background-color: #6c757d!important;
+  color: white;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Upload module styling */
+.upload-controls {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.upload-status {
+  padding: 10px 15px;
+}
+
+.loading-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: #3c8dbc;
+}
+
+.loading-indicator i {
+  margin-bottom: 10px;
+}
+
+.loading-indicator h4 {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.status-message {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.status-message i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.success-message {
+  color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.error-message {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+/* Make file input button match theme */
+.btn-file {
+  background-color: #3c8dbc;
+  border-color: #367fa9;
+  color: #fff;
+}
+
+.btn-file:hover {
+  background-color: #367fa9;
+  border-color: #2e6da4;
+  color: #fff;
+}
